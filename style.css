@@ -1,0 +1,12 @@
+.logos
+{
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+
+}
+.adresse
+{
+  font-size:2em;
+  font-family:Arial,sans serif;
+
+}
