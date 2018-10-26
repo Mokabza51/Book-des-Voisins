@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 @media (max-width: 600px) {
   .sidebar {
     display: none;
   }
 }
 
+=======
+>>>>>>> 70ef5ea07bc5690bd9595a42f68ba281dcc39a2f
 /*#nav-etage {
   margin:10px;
   border:1px;
@@ -75,6 +78,7 @@
   color: cyan;
   background-color: blue;
 }
+<<<<<<< HEAD
 
 header {
 	color: #fffd00;
@@ -137,3 +141,5 @@ div.myDiv:nth-child(even){
    margin-left: auto;
 
 }
+=======
+>>>>>>> 70ef5ea07bc5690bd9595a42f68ba281dcc39a2f
