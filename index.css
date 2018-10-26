@@ -1,3 +1,9 @@
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}
+
 /*#nav-etage {
   margin:10px;
   border:1px;
@@ -131,5 +137,3 @@ div.myDiv:nth-child(even){
    margin-left: auto;
 
 }
-@media (max-width:992px){.container{width:NouvelleValeur px; //Placer la taille voulue pour tablette }}
-@media (max-width:768px){.container{width:NouvelleValeur2 px; //Placer la taille voulue pour smartphone }}
