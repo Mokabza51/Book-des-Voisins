@@ -1,0 +1,139 @@
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+/*#nav-etage {
+  margin:10px;
+  border:1px;
+  padding:10px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-rows:    100px 100px 100px 100px;
+}*/
+#rdc {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  /*grid-template-areas: ". . ." ". . ." ". . ." ". . ." ". . ." ". . ." ". . ." ". . ." ". . ." ". . .";*/
+}
+/*
+#etage div {
+  border-style: solid;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}*/
+
+#rdc div, #etage div {
+  border-style: solid;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.logo {
+  width:64px;
+}
+.big-2 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+}
+.wcs-7 {
+  grid-row-start: 3;
+  grid-row-end: 10;
+  grid-column-start: 2;
+}
+.wcs-12 {
+  grid-row-start: 5;
+  grid-row-end: 9;
+  grid-column-start: 3;
+}
+.bloc-15 {
+  grid-row-start: 8;
+  grid-row-end: 10;
+  grid-column-start: 1;
+}
+#etage {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.setup-1{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+}
+.couleur{
+  color: cyan;
+  background-color: blue;
+}
+
+header {
+	color: #fffd00;
+	background-color: #ff1883;
+	font-size: 20px;
+  background-image: url("https://zupimages.net/up/18/43/nqgl.gif");
+	border: 2px solid rgba(255, 58, 58, 1);
+	background-repeat: repeat;
+	background-size: 30px;
+	border: 2px solid rgba(255, 58, 58, 1);
+}
+
+.parent{
+    display: -webkit-inline-box;
+    overflow: hidden;
+    width:100%;
+}
+
+div.myDiv {
+    width: 300px;
+    height: 300px;
+    margin: 101px 189px 79px -98px;
+    border: 2px solid freen;
+    float:left;
+    overflow: hidden;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari */
+    transform: rotate(45deg); /* Standard syntax */
+}
+div.myDiv:nth-child(even){
+    margin: -10px 39px 0px -200px;
+}
+
+.myDiv img{
+    width: 102%;
+    height: 102%;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin: 0px;
+
+}
+
+.myDiv img:hover {
+    opacity: 0.8;
+    width : 200%;
+    height: 200%;
+    margin: -100px;
+}
+.container
+{
+   width: 940px;
+   margin-right: auto;
+   margin-left: auto;
+
+}
