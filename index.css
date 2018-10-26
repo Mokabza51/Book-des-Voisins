@@ -14,28 +14,20 @@
   grid-gap: 5px;
   /*grid-template-areas: ". . ." ". . ." ". . ." ". . ." ". . ." ". . ." ". . ." ". . ." ". . ." ". . .";*/
 }
-/*
-#etage div {
-  border-style: solid;
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 150%;
-}*/
 
-#rdc div, #etage div {
-  border-style: solid;
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 150%;
+#nav-tab {
+  margin-bottom: 10px; /* espace entre onglet RDC le plan.*/
 }
 
-.logo {
-  width:64px;
+#etage a {
+  vertical-align:;
 }
-.big-2 {
+
+.viderdc {
   grid-row-start: 1;
   grid-row-end: 3;
   grid-column-start: 2;
+  pointer-events: none;
 }
 .wcs-7 {
   grid-row-start: 3;
@@ -65,7 +57,43 @@
   grid-row-end: 3;
   grid-column-start: 1;
 }
+.saison-2{
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 1;
+}
+.beta-3{
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 2;
+}
+.duo-4{
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 1;
+}
+.agence-5{
+  grid-row-start: 5;
+  grid-row-end: 8;
+  grid-column-start: 2;
+}
+.talkywalky-6{
+  grid-row-start: 6;
+  grid-row-end: 8;
+  grid-column-start: 1;
+}
+
 .couleur{
-  color: cyan;
+  color: smoke-white;
   background-color: blue;
+
+.container
+{
+   width: 940px;
+   margin-right: auto;
+   margin-left: auto;
+
+}
+.log {
+  background-color: black;
 }
