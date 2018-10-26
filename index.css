@@ -93,7 +93,7 @@ header {
     width:100%;
 }
 
-div.myDiv {
+div.Div1 {
     width: 300px;
     height: 300px;
     margin: 101px 189px 79px -98px;
@@ -104,11 +104,11 @@ div.myDiv {
     -webkit-transform: rotate(45deg); /* Safari */
     transform: rotate(45deg); /* Standard syntax */
 }
-div.myDiv:nth-child(even){
+div.Div1:nth-child(even){
     margin: -10px 39px 0px -200px;
 }
 
-.myDiv img{
+.Div1 img{
     width: 102%;
     height: 102%;
     display: inline-block;
@@ -124,16 +124,9 @@ div.myDiv:nth-child(even){
 
 }
 
-.myDiv img:hover {
+.Div1 img:hover {
     opacity: 0.8;
     width : 200%;
     height: 200%;
     margin: -100px;
-}
-.container
-{
-   width: 940px;
-   margin-right: auto;
-   margin-left: auto;
-
 }
