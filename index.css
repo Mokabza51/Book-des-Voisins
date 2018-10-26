@@ -130,3 +130,41 @@ div.Div1:nth-child(even){
     height: 200%;
     margin: -100px;
 }
+<<<<<<< HEAD
+=======
+.container
+{
+   width: 940px;
+   margin-right: auto;
+   margin-left: auto;
+
+}
+.row
+{
+
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  height: 10em;
+  line-height:10em;
+  white-space:nowrap;
+  padding:0em;
+
+}
+.row,img
+{
+  width:100%;
+  background-color:#ff1883;
+}
+.adresse
+{
+  color:#fffd00;
+  font-size:1em;
+  font-family:Arial,sans serif;
+  background-color:#ff1883;
+
+}
+footer{
+  background-color:#ff1883;
+}
+>>>>>>> 853210c247edc668e9c0dac0052a1c5e05befdd3
