@@ -104,6 +104,19 @@
   grid-column-start: 1;
 }
 
+@media all and (max-device-width: 480px)
+{
+  #etage {
+    grid-template-columns: 1fr;
+  }
+  .setup-1, .saison-2, .beta-3, .duo-4, .agence-5, .talkywalky-6 {
+
+    grid-column-start: 1;
+
+  }
+
+  }
+
 .couleur{
   color: smoke-white;
   background-color: blue;
