@@ -4,6 +4,62 @@
   }
 }
 
+@media all and (max-device-width: 480px)
+{
+  .Div_h
+  {
+    display: inline;
+    size: auto;
+  }
+
+}
+
+header {
+  display: -webkit-inline-box;
+	background-color: #028ac;
+	background-size: contain;
+	display:flex;
+  align-items:cente;
+  justify-content:space-around;
+}
+
+div.Div_h {
+    widt: 100%;
+    height: 100%;
+    margin: 12px 18px 79px -30px;
+    float:left;
+    overflow:
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari */
+    transform: rotate(45deg); /* Standard syntax */
+}
+div.Div_h:nth-child(even){
+    margin: 150px 50px 10px -20px;
+    background-color: #00b49a;
+}
+
+.Div_h img{
+    width: 100%;
+    height: 80%;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin: 0px;
+
+}
+
+.Div_h img:hover {
+    opacity: 0.8;
+    width : 200%;
+    height: 100%;
+    margin: -50%;
+}
 /*#nav-etage {
   margin:10px;
   border:1px;
@@ -75,63 +131,14 @@
   color: cyan;
   background-color: blue;
 }
-
-header {
-	color: #fffd00;
-	background-color: #ff1883;
-	font-size: 20px;
-  background-image: url("https://zupimages.net/up/18/43/nqgl.gif");
-	border: 2px solid rgba(255, 58, 58, 1);
-	background-repeat: repeat;
-	background-size: 30px;
-	border: 2px solid rgba(255, 58, 58, 1);
-}
-
-.parent{
+.parent {
     display: -webkit-inline-box;
     overflow: hidden;
     width:100%;
 }
 
-div.Div1 {
-    width: 300px;
-    height: 300px;
-    margin: 101px 189px 79px -98px;
-    border: 2px solid freen;
-    float:left;
-    overflow: hidden;
-    -ms-transform: rotate(45deg); /* IE 9 */
-    -webkit-transform: rotate(45deg); /* Safari */
-    transform: rotate(45deg); /* Standard syntax */
-}
-div.Div1:nth-child(even){
-    margin: -10px 39px 0px -200px;
-}
 
-.Div1 img{
-    width: 102%;
-    height: 102%;
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-    -ms-transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    margin: 0px;
-
-}
-
-.Div1 img:hover {
-    opacity: 0.8;
-    width : 200%;
-    height: 200%;
-    margin: -100px;
-}
-<<<<<<< HEAD
-=======
+HEAD
 .container
 {
    width: 940px;
@@ -154,17 +161,16 @@ div.Div1:nth-child(even){
 .row,img
 {
   width:100%;
-  background-color:#ff1883;
+  background-color:#02c8ac;
 }
 .adresse
 {
-  color:#fffd00;
+  color:#02c8ac;
   font-size:1em;
   font-family:Arial,sans serif;
-  background-color:#ff1883;
+  background-color:#02c8ac;
 
 }
 footer{
-  background-color:#ff1883;
+  background-color:#02c8ac;
 }
->>>>>>> 853210c247edc668e9c0dac0052a1c5e05befdd3
