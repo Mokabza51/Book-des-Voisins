@@ -4,6 +4,7 @@
   }
 }
 
+
 /*#nav-etage {
   margin:10px;
   border:1px;
@@ -16,8 +17,8 @@
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 5px;
+  /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;*/
+  grid-gap: 5px; /*espace entre les cases*/
   /*grid-template-areas: ". . ." ". . ." ". . ." ". . ." ". . ." ". . ." ". . ." ". . ." ". . ." ". . .";*/
 }
 
@@ -25,29 +26,59 @@
   margin-bottom: 10px; /* espace entre onglet RDC le plan.*/
 }
 
-#etage a {
-  vertical-align:;
+.co-w{ /*fait*/
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+}
+.entrée{
+  grid-row-start:11;
+  grid-row-end:13;
+  grid-column-start:3;
 }
 
-.viderdc {
+.essai{
+  background-color: grey;
+  font-color: white;
+}
+
+.cuisine{ /*fait*/
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  pointer-events: none;
+}
+
+.viderdc { /*fait*/
   grid-row-start: 1;
   grid-row-end: 3;
   grid-column-start: 2;
   pointer-events: none;
 }
-.wcs-7 {
+.wcs-7 { /*fait*/
   grid-row-start: 3;
-  grid-row-end: 10;
+  grid-row-end: 11;
   grid-column-start: 2;
+  background-color: grey;
+  font-color: white;
 }
-.wcs-12 {
-  grid-row-start: 5;
+.wcs-12 { /*fait*/
+  grid-row-start: 7;
   grid-row-end: 9;
   grid-column-start: 3;
+  background-color: grey;
+  font-color: white;
 }
-.bloc-15 {
-  grid-row-start: 8;
+.wcs-buro{ /*fait*/
+  grid-row-start: 9;
   grid-row-end: 10;
+  grid-column-start: 3;
+  background-color: grey;
+  font-color: white;
+}
+.bloc-15 { /*fait*/
+  grid-row-start: 9;
+  grid-row-end: 11;
   grid-column-start: 1;
 }
 #etage {
@@ -93,13 +124,12 @@
   color: smoke-white;
   background-color: blue;
 }
-.container
+/*.container
 {
    width: 940px;
    margin-right: auto;
    margin-left: auto;
-
-}
+}*/
 .log {
   background-color: black;
 }
@@ -223,7 +253,6 @@ div.myDiv:nth-child(even){
 }
 .row
 {
-
   display:flex;
   align-items:center;
   justify-content:space-around;
