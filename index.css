@@ -171,7 +171,7 @@ div.myDiv:nth-child(even){
 {
 
   display:flex;
-  align-items:center;
+  align-items:stretch;
   justify-content:space-around;
   line-height:10em;
   padding:1em;
@@ -183,6 +183,7 @@ div.myDiv:nth-child(even){
   width:70%;
   position:inherit;
   background-color: #ff1883;
+  align-items: stretch;
 
 }
 footer
@@ -192,8 +193,8 @@ footer
   color:#fffd00;
   font-family:Arial,sans serif;
   background-color:#ff1883;
-  height:auto;
   width: auto;
+
 }
 .texte
 {
