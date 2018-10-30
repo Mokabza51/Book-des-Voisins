@@ -82,12 +82,27 @@
   grid-row-end: 11;
   grid-column-start: 1;
 }
+
+@media all and (max-device-width: 480px)
+{
+  #rdc {
+    grid-template-columns: 1fr;
+  }
+  .viderdc, .wcs-7, .wcs-12, .bloc-15, .wcs-buro, .cuisine, .essai, .entrée, .co-w {
+
+    grid-column-start: 1;
+    grid-gap: 5px;
+
+  }
+
+  }
+
 #etage {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 5px;
+  /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;*/
+  grid-gap: 10px;
 }
 
 .setup-1{
@@ -120,6 +135,19 @@
   grid-row-end: 8;
   grid-column-start: 1;
 }
+
+@media all and (max-device-width: 480px)
+{
+  #etage {
+    grid-template-columns: 1fr;
+  }
+  .setup-1, .saison-2, .beta-3, .duo-4, .agence-5, .talkywalky-6 {
+
+    grid-column-start: 1;
+    grid-gap: 10px;
+  }
+
+  }
 
 .couleur{
   color: smoke-white;
@@ -267,6 +295,13 @@ div.myDiv:nth-child(even){
 {
   width:100%;
   background-color:#ff1883;
+}
+
+@@media all and (max-device-width: 480px) {
+.row  {
+  display: inline;
+  size: auto;
+  }
 }
 .adresse
 {
