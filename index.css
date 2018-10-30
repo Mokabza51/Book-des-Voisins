@@ -13,11 +13,12 @@
   }
 
 }
+
 body {
 	color: black;
 	background-color: rgba(2, 200, 172);
 	font-size: 20px;
-	background-image: url("https://zupimages.net/up/18/44/5zq5.png");
+	background-image: url("https://zupimages.net/up/18/44/t3h1.png");
 	background-size: contain;
 	border: 2px solid rgb(2, 200, 172);
 	background-repeat:repeat;
@@ -33,9 +34,8 @@ header {
 }
 
 div.Div_h {
-    widt: 100%;
-    height: 100%;
-    margin: 12px 18px 79px -30px;
+    height: 80%;
+    margin: 12px 100px 100px -100px;
     float:left;
     overflow:
     -ms-transform: rotate(45deg); /* IE 9 */
@@ -43,13 +43,13 @@ div.Div_h {
     transform: rotate(45deg); /* Standard syntax */
 }
 div.Div_h:nth-child(even){
-    margin: 150px 50px 10px -20px;
+    margin: 10% 30px 50px 20px;
     background-color: #00b49a;
 }
 
 .Div_h img{
-    width: 100%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     display: inline-block;
     vertical-align: middle;
     -webkit-transition: all 1s ease;
@@ -66,34 +66,22 @@ div.Div_h:nth-child(even){
 .Div_h img:hover {
     opacity: 0.8;
     width : 200%;
-    height: 100%;
     margin: -50%;
 }
 
 .Div_2 img{
     width: 100%;
-    height: 80%;
+
     display: inline-block;
     vertical-align: middle;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
-    transition: all 1s ease;
-    -ms-transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    margin: 0px;
+    transition: all 1s ease
+    margin: 20px;
 
 }
-/*#nav-etage {
-  margin:10px;
-  border:1px;
-  padding:10px;
-  display: grid;
-  grid-template-columns: 100px 100px 100px 100px 100px;
-  grid-template-rows:    100px 100px 100px 100px;
-  Attention
-}*/
+
 #rdc {
   display: grid;
   height: 100%;
