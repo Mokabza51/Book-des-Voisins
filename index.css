@@ -1,3 +1,14 @@
+/*
+1. HEADER
+2. NAV
+3. BODY
+4. FOOTER
+	4.1 Adresse
+*/
+
+
+
+
 @media (max-width: 600px) {
   .sidebar {
     display: none;
@@ -109,11 +120,11 @@ div.Div_h:nth-child(even){
   pointer-events: none;
 }
 
-.essai{
+.essai {
   background-color:#4FC190;
 }
 
-.cuisine{ /*fait*/
+.cuisine { /*fait*/
   grid-row-start: 1;
   grid-row-end: 3;
   grid-column-start: 3;
@@ -153,19 +164,15 @@ div.Div_h:nth-child(even){
   grid-column-start: 1;
 }
 
-@media all and (max-device-width: 480px)
-{
+@media all and (max-device-width: 480px){
   #rdc {
     grid-template-columns: 1fr;
   }
   .viderdc, .wcs-7, .wcs-12, .bloc-15, .wcs-buro, .cuisine, .essai, .entrée, .co-w {
-
     grid-column-start: 1;
     grid-gap: 5px;
-
   }
-
-  }
+}
 
 #etage {
   display: grid;
@@ -182,6 +189,7 @@ div.Div_h:nth-child(even){
   background-color: grey;
   font-color: white;
   }
+
 .saison-2{
   grid-row-start: 3;
   grid-row-end: 5;
@@ -206,7 +214,7 @@ div.Div_h:nth-child(even){
   grid-row-end: 8;
   grid-column-start: 2;
 }
-.talkywalky-6{
+.talky HEwalky-6{
   grid-row-start: 6;
   grid-row-end: 8;
   grid-column-start: 1;
@@ -245,14 +253,6 @@ div.Div_h:nth-child(even){
     width:100%;
 }
 
-HEAD
-.container
-{
-   width: 940px;
-   margin-right: auto;
-   margin-left: auto;
-
-}
 .row
 {
   display:flex;
@@ -270,19 +270,30 @@ HEAD
   background-color: #02c8ac;
   align-items: stretch;
 }
-<<<<<<< HEAD
 
-@@media all and (max-device-width: 480px) {
+@media all and (max-device-width: 480px) {
 .row  {
   display: inline;
   size: auto;
   }
 }
-.adresse
-=======
+
+/*************************/
+/***** 4. FOOTER ********/
+/*************************/
+
 footer
->>>>>>> 4cc9c62996061d357126c0452b07c0ddbf4a92e6
 {
+  display:flex;
+  color:black;
+  font-family:Arial,sans serif;
+  background-color:#02c8ac;
+  width: auto;
+  height:auto;
+}
+
+/***** 4.1 Adresse ********/
+.adresse{
   display:flex;
   position:absolute;
   color:black;
@@ -291,10 +302,8 @@ footer
   width: auto;
   height:auto;
 }
-.texte
-{
+.texte{
   font-family:Arial,sans serif;
   font-size:1em;
   color:black;
-
 }
