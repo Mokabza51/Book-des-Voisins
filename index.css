@@ -26,6 +26,10 @@
 #nav-tab {
   margin-bottom: 10px; /* espace entre onglet RDC le plan.*/
 }
+body{
+  background-image: url(http://aquaponiereims.com/wp-content/uploads/2018/09/quartier-libre-reims-aquaponie-340x340.jpg);
+  background-attachment: fixed;
+}
 
 .co-w{ /*fait*/
   grid-row-start: 1;
@@ -36,6 +40,7 @@
   grid-row-start:11;
   grid-row-end:13;
   grid-column-start:3;
+  pointer-events: none;
 }
 
 .essai{
