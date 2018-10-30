@@ -251,6 +251,8 @@ div.myDiv:nth-child(even){
    margin-left: auto;
 
 }
+<<<<<<< HEAD
+=======
 .row
 {
   display:flex;
@@ -278,3 +280,4 @@ div.myDiv:nth-child(even){
 footer{
   background-color:#ff1883;
 }
+>>>>>>> b716152b5ec62304257da5ee2f1528c3f5caf25b
