@@ -1,3 +1,14 @@
+/*
+1. HEADER
+2. NAV
+3. BODY
+4. FOOTER
+	4.1 Adresse
+*/
+
+
+
+
 @media (max-width: 600px) {
   .sidebar {
     display: none;
@@ -13,11 +24,13 @@
   }
 
 }
+
 body {
+  font-family:Catamaran, sans serif;
 	color: black;
 	background-color: rgba(2, 200, 172);
-	font-size: 20px;
-	background-image: url("https://zupimages.net/up/18/44/5zq5.png");
+	font-size: 1em;
+	background-image: url("https://zupimages.net/up/18/44/t3h1.png");
 	background-size: contain;
 	border: 2px solid rgb(2, 200, 172);
 	background-repeat:repeat;
@@ -33,9 +46,8 @@ header {
 }
 
 div.Div_h {
-    widt: 100%;
-    height: 100%;
-    margin: 12px 18px 79px -30px;
+    height: 80%;
+    margin: 12px 100px 100px -100px;
     float:left;
     overflow:
     -ms-transform: rotate(45deg); /* IE 9 */
@@ -43,13 +55,13 @@ div.Div_h {
     transform: rotate(45deg); /* Standard syntax */
 }
 div.Div_h:nth-child(even){
-    margin: 150px 50px 10px -20px;
+    margin: 10% 30px 50px 20px;
     background-color: #00b49a;
 }
 
 .Div_h img{
-    width: 100%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     display: inline-block;
     vertical-align: middle;
     -webkit-transition: all 1s ease;
@@ -66,34 +78,22 @@ div.Div_h:nth-child(even){
 .Div_h img:hover {
     opacity: 0.8;
     width : 200%;
-    height: 100%;
     margin: -50%;
 }
 
 .Div_2 img{
     width: 100%;
-    height: 80%;
+
     display: inline-block;
     vertical-align: middle;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
-    transition: all 1s ease;
-    -ms-transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    margin: 0px;
+    transition: all 1s ease
+    margin: 20px;
 
 }
-/*#nav-etage {
-  margin:10px;
-  border:1px;
-  padding:10px;
-  display: grid;
-  grid-template-columns: 100px 100px 100px 100px 100px;
-  grid-template-rows:    100px 100px 100px 100px;
-  Attention
-}*/
+
 #rdc {
   display: grid;
   height: 100%;
@@ -119,17 +119,22 @@ div.Div_h:nth-child(even){
   grid-row-end:13;
   grid-column-start:3;
   pointer-events: none;
-}
-
-.essai{
   background-color:#4FC190;
+  color: black
 }
 
-.cuisine{ /*fait*/
+.essai {
+  background-color:#4FC190;
+  color: white;
+}
+
+.cuisine { /*fait*/
   grid-row-start: 1;
   grid-row-end: 3;
   grid-column-start: 3;
   pointer-events: none;
+  color:#4FC190;
+  background-color:white;
 }
 
 .viderdc { /*fait*/
@@ -137,54 +142,71 @@ div.Div_h:nth-child(even){
   grid-row-end: 3;
   grid-column-start: 2;
   pointer-events: none;
+  color:#4FC190;
+  background-color:white;
 }
 .wcs-7 { /*fait*/
   grid-row-start: 3;
   grid-row-end: 11;
   grid-column-start: 2;
-  background-color: grey;
-  font-color: white;
+  background-color: #4FC190;
+  color: white;
 }
 .wcs-12 { /*fait*/
   grid-row-start: 7;
   grid-row-end: 9;
   grid-column-start: 3;
-  background-color: grey;
-  font-color: white;
+  background-color: #4FC190;
+  color: white;
 }
 .wcs-buro{ /*fait*/
   grid-row-start: 9;
   grid-row-end: 10;
   grid-column-start: 3;
-  background-color: grey;
-  font-color: white;
+  background-color: #4FC190;
+  color: white;
 }
 .bloc-15 { /*fait*/
   grid-row-start: 9;
   grid-row-end: 11;
   grid-column-start: 1;
 }
+
+@media all and (max-device-width: 480px){
+#rdc {
+grid-template-columns: 1fr;
+}
+.wcs-12, .bloc-15, .wcs-buro, .essai, .co-w {
+grid-column-start: 1;
+grid-gap: 5px;
+}
+.entrée, .viderdc, .cuisine, .wcs-7 {
+display: none;
+}
+}
+
 #etage {
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 5px;
+  /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;*/
+  grid-gap: 10px;
 }
 
 .setup-1{
   grid-row-start: 1;
   grid-row-end: 3;
   grid-column-start: 1;
-  background-color: grey;
-  font-color: white;
+  background-color: #4FC190;
+  color: white;
   }
+
 .saison-2{
   grid-row-start: 3;
   grid-row-end: 5;
   grid-column-start: 1;
-  background-color: grey;
-  font-color: white;
+  background-color:#4FC190;
+  color: white;
 }
 .beta-3{
   grid-row-start: 3;
@@ -195,18 +217,32 @@ div.Div_h:nth-child(even){
   grid-row-start: 5;
   grid-row-end: 6;
   grid-column-start: 1;
-  background-color: grey;
-  font-color: white;
+  background-color: #4FC190;
+  color: white;
 }
 .agence-5{
   grid-row-start: 5;
   grid-row-end: 8;
   grid-column-start: 2;
 }
-.talkywalky-6{
+.talky HEwalky-6{
   grid-row-start: 6;
   grid-row-end: 8;
   grid-column-start: 1;
+}
+
+@media all and (max-device-width: 480px)
+{
+#etage {
+grid-template-columns: 1fr;
+}
+.setup-1, .saison-2, .beta-3, .duo-4, .agence-5, .talkywalky-6 {
+
+grid-column-start: 1;
+}
+.duo-4, .saison-2{
+align-items: flex-end;
+}
 }
 
 .couleur{
@@ -229,45 +265,67 @@ div.Div_h:nth-child(even){
     width:100%;
 }
 
-HEAD
-.container
-{
-   width: 940px;
-   margin-right: auto;
-   margin-left: auto;
 
+@media all and (max-device-width: 480px) {
+.row  {
+  display: inline;
+  size: auto;
+  }
 }
-.row
-{
-  display:flex;
-  align-items:stretch;
-  justify-content:space-around;
-  line-height:10em;
-  padding:1em;
-  padding-bottom: 1em;
 
-}
-.row,img
-{
-  width:70%;
-  position:inherit;
-  background-color: #02c8ac;
-  align-items: stretch;
-}
+/*************************/
+/***** 4. FOOTER ********/
+/*************************/
+
 footer
 {
   display:flex;
-  position:absolute;
   color:black;
-  font-family:Arial,sans serif;
-  background-color:#02c8ac;
+  justify-content: center;
+  font-size: 0.8em;
+  background-color:;
   width: auto;
   height:auto;
+  margin-top: 50px;
 }
+.my-row
+{
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+  line-height:10em;
+  padding:2em;
+
+
+}
+.my-row img
+{
+  width:70%;
+
+  background-color: ;
+  align-items: center;
+  flex-wrap:wrap;
+}
+
+
+/***** 4.1 Adresse ********/
 .texte
 {
-  font-family:Arial,sans serif;
-  font-size:1em;
   color:black;
+  background-color:;
+  padding: 1em;
+}
 
+.noms
+{
+
+  justify-content: space-between;
+  padding:1em;
+
+}
+@media all and (max-device-width: 480px){
+  footer
+{
+  flex-direction:row;
+}
 }
